@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://c4s25djk2l66f"]
+
+[node name="UpgradeMenu" type="CanvasLayer" unique_id=2012902502]
+
+[node name="Upgrade1" type="Button" parent="." unique_id=1711480867]
+offset_left = 329.0
+offset_top = 318.0
+offset_right = 337.0
+offset_bottom = 326.0
+
+[node name="Upgrade2" type="Button" parent="." unique_id=1028024447]
+offset_left = 328.0
+offset_top = 378.0
+offset_right = 336.0
+offset_bottom = 386.0
+
+[node name="Upgrade3" type="Button" parent="." unique_id=2088952799]
+offset_left = 329.0
+offset_top = 262.0
+offset_right = 337.0
+offset_bottom = 270.0

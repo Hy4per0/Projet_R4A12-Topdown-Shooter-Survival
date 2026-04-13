@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://rycs1y7rbkpj"]
+
+[ext_resource type="Script" uid="uid://c2ugx8ogu5eco" path="res://ice_splash.gd" id="1_achhv"]
+
+[node name="Node2D" type="Node2D" unique_id=347788025]
+script = ExtResource("1_achhv")

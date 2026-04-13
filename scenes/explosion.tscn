@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://cwbrqsr1nayk2"]
+
+[ext_resource type="Script" uid="uid://cpigd6qejf4j0" path="res://scenes/explosion.gd" id="1_serga"]
+
+[sub_resource type="Curve" id="Curve_p155h"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_nfeox"]
+offsets = PackedFloat32Array(0, 0.5102041, 1)
+colors = PackedColorArray(1, 0.73333335, 0, 1, 0.8621078, 0.50041723, 0, 1, 0.8235294, 0, 0, 1)
+
+[node name="Explosion" type="CPUParticles2D" unique_id=206395758]
+emitting = false
+amount = 32
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+emission_shape = 1
+emission_sphere_radius = 5.0
+spread = 180.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 90.0
+initial_velocity_max = 110.0
+scale_amount_min = 26.1
+scale_amount_max = 26.1
+scale_amount_curve = SubResource("Curve_p155h")
+color = Color(0.72156864, 0.72156864, 0, 1)
+color_ramp = SubResource("Gradient_nfeox")
+script = ExtResource("1_serga")

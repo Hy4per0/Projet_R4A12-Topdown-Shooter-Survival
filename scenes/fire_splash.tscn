@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://346c310cdjct"]
+
+[ext_resource type="Script" uid="uid://brqgri0prerlv" path="res://fire_splash.gd" id="1_gcewk"]
+
+[node name="Node2D" type="Node2D" unique_id=2016759455]
+script = ExtResource("1_gcewk")
