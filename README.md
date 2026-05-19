@@ -1,7 +1,7 @@
 # MARDAUS - Topdown Shooter Survival
 
-> Dynamiczna gra typu *top-down shooter / survival* stworzona w **Godot 4.6**.
-> Walcz z hordami przeciwnikow, zbieraj ulepszenia i przetrwaj jak najdluzej!
+> A fast-paced *top-down shooter / survival* game built in **Godot 4.6**.
+> Fight off waves of enemies, collect upgrades and survive as long as you can!
 
 ![Godot](https://img.shields.io/badge/Godot-4.6-478CBF?logo=godotengine&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-355170?logo=godotengine&logoColor=white)
@@ -12,44 +12,44 @@
 
 ## Features
 
-- **Strzelanie 360 stopni** - plynna walka w stylu top-down
-- **Fale przeciwnikow** - szczury, bossowie i inne paskudy
-- **System pociskow** - efekty ognia, lodu i eksplozji
-- **Itemy i ulepszenia** - menu upgrade'ow miedzy falami
-- **HUD** - pasek zycia, statystyki, licznik wrogow
-- **Ekrany Game Over / Win** - kompletna petla rozgrywki
+- **360-degree shooting** - smooth top-down combat
+- **Enemy waves** - rats, bosses and other nasty creatures
+- **Bullet system** - fire, ice and explosion effects
+- **Items & upgrades** - upgrade menu between waves
+- **HUD** - health bar, stats, enemy counter
+- **Game Over / Win screens** - complete gameplay loop
 
 ---
 
-## Sterowanie
+## Controls
 
-| Klawisz | Akcja |
-|---------|-------|
-| `W` `A` `S` `D` | Ruch postacia |
-| `Mysz` | Celowanie |
-| `LPM` | Strzal |
+| Key | Action |
+|-----|--------|
+| `W` `A` `S` `D` | Move |
+| `Mouse` | Aim |
+| `LMB` | Shoot |
 
 ---
 
-## Uruchomienie
+## Getting Started
 
-1. Zainstaluj **[Godot Engine 4.6+](https://godotengine.org/download)**
-2. Sklonuj repo:
+1. Install **[Godot Engine 4.6+](https://godotengine.org/download)**
+2. Clone the repo:
    ```bash
    git clone https://github.com/Hy4per0/Projet_R4A12-Topdown-Shooter-Survival.git
    ```
-3. Otworz `project.godot` w Godocie
-4. Nacisnij **F5**, zeby zagrac
+3. Open `project.godot` in Godot
+4. Press **F5** to play
 
 ---
 
-## Struktura projektu
+## Project Structure
 
 ```
 MARDAUS_Projet_R4A14/
-├── scenes/          # Sceny gry (player, boss, rat, bullet, hud...)
-├── assets/          # Grafiki, sprite'y, tekstury
-├── project.godot    # Konfiguracja projektu Godot
+├── scenes/          # Game scenes (player, boss, rat, bullet, hud...)
+├── assets/          # Sprites, textures, graphics
+├── project.godot    # Godot project configuration
 └── README.md
 ```
 
@@ -58,14 +58,14 @@ MARDAUS_Projet_R4A14/
 ## Tech Stack
 
 - **Engine:** Godot 4.6 (Forward+)
-- **Jezyk:** GDScript
+- **Language:** GDScript
 - **Renderer:** 2D / Forward Plus
 
 ---
 
 ## License
 
-Projekt udostepniony na licencji **MIT** - zobacz [LICENSE](LICENSE).
+Released under the **MIT** license - see [LICENSE](LICENSE).
 
 ---
 
